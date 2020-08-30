@@ -1,0 +1,21 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#headline {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+
+.head-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
