@@ -16,6 +16,9 @@
     }
     
     #headline-h {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
         position: relative;
         background-attachment: fixed;
         background-position: center;
@@ -36,6 +39,7 @@
         width: 100%;
         text-align: center;
         color: #fff;
+        margin-bottom: 60px;
     }
     
     .about {
@@ -139,13 +143,13 @@
     
     #mce-MMERGE2 {
         background-color: transparent;
-        color: #fff;
         height: 300px;
         width: 600px;
         padding-left: 0;
         padding-top: 0;
         padding-bottom: 0.4em;
         padding-right: 0.4em;
+        border-width: 2px;
         border-color: #fff;
         color: #fff;
         border-style: solid;
@@ -185,4 +189,63 @@
         align-self: center;
         flex-direction: column;
         text-align: center;
+    }
+    
+    .mc-embedded-subscribe {
+        width: 290px;
+        margin-left: 310px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-color: #fff;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    input[type="submit" i] {
+        width: 290px;
+        margin-left: 310px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #fff;
+        border-style: solid;
+        border-width: 2px;
+        color: #fff;
+    }
+    
+    #animated {
+        -webkit-animation: spin 2s linear infinite;
+        -moz-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+    
+    @-moz-keyframes spin {
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+    
+    @-webkit-keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    
+    .mouse img {
+        padding: 10px;
+    }
+    
+    .mouse {
+        position: relative;
+        display: flex;
+        align-self: center;
+        top: 512px;
+    }
+    
+    .head-caption img {
+        padding: 2px;
     }
