@@ -12,7 +12,7 @@ The site was published on [GitHub Pages](htps://pages.github.com/).
 
 ## Page Preview
 
-![alt screenshot](img/screenshot.png)
+![alt screenshot](assets/screenshot.png)
 
 ## Setup
 
