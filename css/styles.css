@@ -62,6 +62,11 @@
         flex-direction: column;
         text-align: center;
         padding: 50px 80px;
+        height: 360px;
+    }
+    
+    .services h2 {
+        margin-bottom: 20px;
     }
     
     #icons {
@@ -248,4 +253,16 @@
     
     .head-caption img {
         padding: 2px;
+    }
+    
+    #development,
+    #design,
+    #product {
+        display: none;
+    }
+    
+    #development-image img,
+    #design-image img,
+    #product-image img {
+        padding: 10px;
     }
