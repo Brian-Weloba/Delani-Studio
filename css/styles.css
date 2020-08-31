@@ -336,3 +336,8 @@
     p {
         font-size: 16px;
     }
+    
+    .tint {
+        background-color: rgba(0, 0, 0, 0.6);
+        height: inherit;
+    }
