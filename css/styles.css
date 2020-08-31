@@ -260,15 +260,15 @@
         padding: 2px;
     }
     
-    #development,
-    #design,
-    #product {
+    #dev,
+    #des,
+    #prod {
         display: none;
     }
     
-    #development-image img,
-    #design-image img,
-    #product-image img {
+    #dev-image img,
+    #des-image img,
+    #prod-image img {
         padding: 10px;
     }
     
@@ -345,4 +345,12 @@
     .tint {
         background-color: rgba(0, 0, 0, 0.6);
         height: inherit;
+    }
+    
+    .icon {
+        transition: transform .5s ease;
+    }
+    
+    .icon:hover {
+        transform: scale(1.5);
     }
