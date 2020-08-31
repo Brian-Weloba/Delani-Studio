@@ -1,3 +1,4 @@
+//what we do dropdown on click
 $(document).ready(function() {
     $("#development-image").click(function() {
         $("#development-image").slideUp('1000')
