@@ -31,3 +31,9 @@ $(document).ready(function() {
         $("#prod-image").slideDown('1000');
     });
 });
+
+$(document).ready(function() {
+    $('#mc-embedded-subscribe').click(function() {
+        alert($("#mce-FNAME").val() + ", we have received your message. Thank you for reaching out to us.");
+    });
+});
